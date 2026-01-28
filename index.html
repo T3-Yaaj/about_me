@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chou Yang</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Main layout wrapper -->
+    <main class="page">
+      <!-- Centered name image -->
+      <img
+        class="name-logo"
+        src="name horizontal clear bg.png"
+        alt="Chou Yang"
+      />
+
+      <!-- Navigation buttons -->
+      <nav class="nav">
+        <button class="nav-button" data-modal-target="about-modal">About</button>
+        <button class="nav-button" data-modal-target="skills-modal">Skills</button>
+        <button class="nav-button" data-modal-target="contact-modal">Contact</button>
+      </nav>
+    </main>
+
+    <!-- About modal window -->
+    <dialog class="modal" id="about-modal">
+      <div class="modal-content">
+        <h2>About</h2>
+        <!-- About portrait image -->
+        <img
+          class="about-image"
+          src="T3-Cartoon-Clear-BG.png"
+          alt="Portrait illustration"
+        />
+        <p>
+          <!-- About bio paragraph 1 -->
+          I'm an IT specialist with over 11 years of experience supporting people
+          in higher-education and public-sector environments. I focus on making
+          technology reliable, approachable, and useful for teams who need systems
+          to work smoothly in real-world, day-to-day operations.
+        </p>
+        <p>
+          <!-- About bio paragraph 2 -->
+          I've supported everyone from office staff to facilities and trade teams
+          working in the field, which has shaped how I approach IT: practical
+          solutions, clear communication, and minimal friction. Beyond
+          troubleshooting, I enjoy improving processes, documenting what works,
+          and helping teams feel confident using the tools they depend on.
+        </p>
+        <!-- Signature block -->
+        <img
+          class="signature-image"
+          src="Chou Sig.png"
+          alt="Chou Yang signature"
+        />
+        <p class="signature-name">Chou Yang</p>
+        <button class="modal-close" type="button" data-close>Close</button>
+      </div>
+    </dialog>
+
+    <!-- Skills modal window -->
+    <dialog class="modal" id="skills-modal">
+      <div class="modal-content">
+        <h2>Skills</h2>
+        <p>
+          <!-- Skills intro -->
+          Focused on reliable service delivery, endpoint lifecycle support, and
+          clear documentation across Windows, macOS, and mobile platforms.
+        </p>
+
+        <!-- Core skills -->
+        <h3>Core Skills</h3>
+        <ul>
+          <li>Data analysis and reporting</li>
+          <li>Endpoint management (MDM/UEM)</li>
+          <li>Hardware break/fix and device lifecycle</li>
+          <li>Incident, request, and problem management</li>
+          <li>ITIL-aligned support practices</li>
+          <li>Knowledge base and SOP development</li>
+          <li>Microsoft 365 (Outlook, Teams, OneDrive, SharePoint)</li>
+          <li>Mobile device support (iOS / Android)</li>
+          <li>Tier 2 &amp; 3 / escalated technical support</li>
+          <li>Vendor and campus IT coordination</li>
+          <li>Web development</li>
+          <li>Windows 10/11 and macOS troubleshooting</li>
+        </ul>
+
+        <!-- Tools and platforms -->
+        <h3>Technology &amp; Tools</h3>
+        <ul>
+          <li><em>Admin</em>: Active Directory, Group Policy</li>
+          <li><em>Endpoint</em>: BigFix, Windows Update Manager</li>
+          <li><em>Integrated Workplace Management System</em>: AssetWorks</li>
+          <li><em>Mobile Device Management</em>: Workspace ONE, Citrix XenMobile, Apple School Manager, Samsung Knox</li>
+          <li><em>OS</em>: Windows 10/11, macOS, iOS, Android</li>
+          <li><em>Project Management</em>: Jira Agile/Kanban</li>
+          <li><em>Productivity</em>: Microsoft 365, Teams, SharePoint, OneDrive</li>
+          <li><em>Database Reporting</em>: SQL, Power BI, BIRT</li>
+          <li><em>Scripting</em>: JavaScript</li>
+          <li><em>Security/Connectivity</em>: VPN solutions, endpoint security tools</li>
+          <li><em>Ticketing systems</em>: Cherwell, SpiceWorks</li>
+          <li><em>VDI</em>: Unidesk, Citrix Workspace, Windows RDS</li>
+        </ul>
+
+        <button class="modal-close" type="button" data-close>Close</button>
+      </div>
+    </dialog>
+
+    <!-- Contact modal window -->
+    <dialog class="modal" id="contact-modal">
+      <div class="modal-content">
+        <h2>Contact</h2>
+        <p>
+          <!-- Add your contact details -->
+          Email:
+          <br>
+          <!-- Direct email -->
+          <a href="mailto:chou_yang@live.com">chou_yang@live.com</a>
+        </p>
+        <button class="modal-close" type="button" data-close>Close</button>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>

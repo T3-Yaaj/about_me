@@ -1,0 +1,141 @@
+/* Base page styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f4f1ec; /* Matches the image background */
+  color: #1f1f1f;
+}
+
+/* Layout */
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 32px;
+}
+
+/* Image */
+.name-logo {
+  width: min(640px, 80vw);
+  height: auto;
+  display: block;
+}
+
+/* Buttons */
+.nav {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-button {
+  border: 1px solid #1f1f1f;
+  background: transparent;
+  color: #1f1f1f;
+  padding: 10px 18px;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.nav-button:hover,
+.nav-button:focus-visible {
+  background-color: #1f1f1f;
+  color: #f4f1ec;
+}
+
+/* Modal */
+.modal {
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.modal-content {
+  background: #fdfbf7;
+  border: 1px solid #1f1f1f;
+  padding: 28px 32px;
+  width: min(520px, 90vw);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* About modal image */
+.about-image {
+  width: min(220px, 60vw);
+  height: auto;
+  display: block;
+  margin: 0 auto 16px;
+}
+
+/* About modal signature */
+.signature-image {
+  width: min(160px, 50vw);
+  height: auto;
+  display: block;
+  margin: 12px 0 4px;
+}
+
+.signature-name {
+  margin: 0 0 20px;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: none;
+}
+
+.modal-content h2 {
+  margin: 0 0 12px;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.modal-content h3 {
+  margin: 18px 0 8px;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.modal-content p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+.modal-content ul {
+  margin: 0 0 20px;
+  padding-left: 18px;
+  line-height: 1.5;
+}
+
+.modal-content a {
+  color: #1f1f1f;
+}
+
+.modal-close {
+  border: 1px solid #1f1f1f;
+  background: transparent;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.modal-close:hover,
+.modal-close:focus-visible {
+  background-color: #1f1f1f;
+  color: #f4f1ec;
+}
