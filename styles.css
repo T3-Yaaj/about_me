@@ -1,4 +1,3 @@
-/* Base page styling */
 * {
   box-sizing: border-box;
 }
@@ -6,11 +5,11 @@
 body {
   margin: 0;
   font-family: "Helvetica Neue", Arial, sans-serif;
-  background-color: #f4f1ec; /* Matches the image background */
+  background-color: #f4f1ec; 
   color: #1f1f1f;
 }
 
-/* Layout */
+
 .page {
   min-height: 100vh;
   display: flex;
@@ -21,14 +20,14 @@ body {
   padding: 32px;
 }
 
-/* Image */
+
 .name-logo {
   width: min(640px, 80vw);
   height: auto;
   display: block;
 }
 
-/* Buttons */
+
 .nav {
   display: flex;
   gap: 16px;
@@ -54,7 +53,6 @@ body {
   color: #f4f1ec;
 }
 
-/* Modal */
 .modal {
   border: none;
   padding: 0;
@@ -73,7 +71,6 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
-/* About modal image */
 .about-image {
   width: min(220px, 60vw);
   height: auto;
@@ -81,7 +78,7 @@ body {
   margin: 0 auto 16px;
 }
 
-/* About modal signature */
+
 .signature-image {
   width: min(160px, 50vw);
   height: auto;
