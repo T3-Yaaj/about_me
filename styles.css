@@ -78,22 +78,6 @@ body {
   margin: 0 auto 16px;
 }
 
-
-.signature-image {
-  width: min(160px, 50vw);
-  height: auto;
-  display: block;
-  margin: 12px 0 4px;
-}
-
-.signature-name {
-  margin: 0 0 20px;
-  text-align: left;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  text-transform: none;
-}
-
 .modal-content h2 {
   margin: 0 0 12px;
   font-size: 20px;
